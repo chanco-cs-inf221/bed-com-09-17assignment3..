@@ -1,0 +1,16 @@
+*{
+    margin: 0%;
+    padding: 0%
+}
+.wrapper{
+    margin: 4%;
+    width: 900px;
+ 
+}
+video{
+    padding-top: 40px;
+    border-bottom-left-radius: 30px;
+    border-color: red;
+    width: 900px;
+    height: 500;
+}

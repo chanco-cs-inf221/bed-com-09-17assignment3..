@@ -1,0 +1,26 @@
+.gallery{
+    margin: 10px 50px;
+}
+.gallery img {
+    transition: 1s;
+    padding: 15px;
+    width: 100px;
+}
+.gallery img:hover {
+    filter: grayscale(100%);
+    transform: scale(1.1);
+}
+h1{
+    padding: 7px;
+    color: rgb(55, 43, 119);
+    text-align: center;
+}
+#Topmenu ul{
+    list-style: none;
+
+}
+
+#Topmenu ul li{
+    list-style: inline;
+
+}

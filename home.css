@@ -1,0 +1,54 @@
+.head{
+    position: absolute;
+    top: 180px;
+    left: 10%;
+}
+.head h1{
+    letter-spacing: 2.1rem;
+    font-size: 70px;
+    color:red;
+    text-shadow: 2px 3px 4px blue;    
+    text-align: center;
+}
+.head h3{
+    letter-spacing: .4rem;
+    font-size: 35px;
+    color:red;
+    text-shadow: 4px 3px 2px rgb(70, 52, 52);    
+    text-align: center;
+}
+.main{
+    background-color: #ebadad;
+}
+.slide{
+    position: absolute;
+    top: 700px;
+    left: 60%;
+    width: 250px;
+    height: 100px;
+    overflow: hidden;
+    animation: slide 10s linear infinite;
+}
+@keyframes slide{
+    0%{
+        background-color: #570e0e;
+    }
+    25%{
+        background-color: aqua;
+    }
+    50%{
+        background-color: blue;
+    }
+    75%{
+        background-color: brown;
+    }
+}
+.links{
+    overflow: hidden;
+    position: absolute;
+    top: 700px;
+    float: left;
+    display: inline-block;
+    left: 86%;
+
+}
